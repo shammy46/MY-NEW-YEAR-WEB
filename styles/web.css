@@ -47,6 +47,11 @@ body {
 
 /* sale content section */
 
+.sale-content {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
 .sale-content-banner {
     display: block;
     align-items: center;
@@ -101,15 +106,17 @@ body {
     flex-shrink: 0;
     border-radius: 16px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
-    
+
     /*   margin: 50px 100px; */
-    
+
     margin: auto;
 }
 
 .welcome-content {
     text-align: left;
     padding: 125px 550px 215px 125px;
+    margin-top: 0;
+    margin-bottom: 120px;
 }
 
 .welcome-title {
@@ -128,18 +135,66 @@ body {
     font-weight: 400;
     line-height: 30px;
     margin-top: 0;
-    
+
 }
 
-.btn-primary{
+.btn-primary {
     color: #FFF;
     background-color: black;
     border: 0;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* details  */
+
+
+.details-container {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: auto;
+    margin-top: 120px;
+}
+
+.details-content {
+    text-align: center;
+    padding: 100px 385px;
+}
+
+
+.details-info {
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.details-info span {
+    color: #F00;
+}
+
+.btn-secondary {
+    color: #FFF;
+    background-color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: 0;
 }
