@@ -1,0 +1,145 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+
+.header {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner\ Image.png);
+
+    /*   margin: 50px 100px; */
+    margin: auto;
+
+
+}
+
+.banner {
+    text-align: center;
+    padding: 170px 340px 170px 340px
+}
+
+.banner-content {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 175px;
+    width: 632px;
+}
+
+
+/* sale content section */
+
+.sale-content-banner {
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sale-amount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.sale-info {
+    color: #FF0000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+
+.sale-title {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 45px;
+
+}
+
+.sale-img {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+/* Welcome section style */
+
+.welcome-container {
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+    
+    /*   margin: 50px 100px; */
+    
+    margin: auto;
+}
+
+.welcome-content {
+    text-align: left;
+    padding: 125px 550px 215px 125px;
+}
+
+.welcome-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.welcome-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+    
+}
+
+.btn-primary{
+    color: #FFF;
+    background-color: black;
+    border: 0;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
