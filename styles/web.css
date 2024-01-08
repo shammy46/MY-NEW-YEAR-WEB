@@ -109,11 +109,12 @@ body {
     /*   margin: 50px 100px; */
 
     margin: auto;
+    display: flex;
 }
 
 .welcome-content {
     text-align: left;
-    padding: 125px 550px 215px 125px;
+    padding: 125px 38px 215px 125px;
     margin-top: 0;
     margin-bottom: 120px;
 }
@@ -125,6 +126,7 @@ body {
     line-height: 88px;
     letter-spacing: 7.04px;
     margin-bottom: 24px;
+    width: 642px;
 }
 
 .welcome-description {
@@ -134,6 +136,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     margin-top: 0;
+    width: 697px;
 
 }
 
@@ -148,6 +151,23 @@ body {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.welcome-img-content {
+    margin: 68px 138px 68px 39px;
+}
+
+.welcome-img {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+   
 }
 
 /* details  */
@@ -251,7 +271,7 @@ body {
 
 .holiday-img {
     border-radius: 463px;
-border: 15px solid #F00;
+    border: 15px solid #F00;
     width: 364.844px;
     height: 364.844px;
     padding: 48px;
@@ -262,7 +282,8 @@ border: 15px solid #F00;
     height: 364.844px;
     flex-shrink: 0;
 }
-.holiday-second-content{
+
+.holiday-second-content {
     padding-left: 118px;
 }
 
@@ -287,7 +308,7 @@ border: 15px solid #F00;
     width: 276px;
     margin-top: 0;
     margin-bottom: 43px;
-    
+
 
 }
 
@@ -298,6 +319,86 @@ border: 15px solid #F00;
     margin-top: 0;
 
 }
+
+/* offer */
+.offer-container {
+    width: 1320px;
+    flex-shrink: 0;
+
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 0;
+}
+
+.offer-title {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 0;
+
+
+}
+
+.offer-caption {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 28px;
+
+}
+
+.text-primary {
+    color: #070211;
+
+}
+
+.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+
+.offer-content-img {
+    display: flex;
+}
+
+.img2 {
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+    margin: auto;
+
+}
+
+.img3 {
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    margin: 30px 10px;
+
+}
+
+.img-footer {
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+
+
+}
+
 
 
 /* portfolio */
@@ -352,16 +453,21 @@ border: 15px solid #F00;
     width: 1600px;
     padding: 5px;
 
+
 }
 
 .items-column>a {
     width: 424px;
     height: 450px;
     flex-shrink: 0;
+
 }
 
 /* 8888888888888uhuirgheru */
-.items-column>a:hover {}
+.items-column>a:hover {
+    background: red;
+    border: none;
+}
 
 
 
@@ -454,18 +560,6 @@ border: 15px solid #F00;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
