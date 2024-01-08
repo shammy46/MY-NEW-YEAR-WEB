@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
@@ -151,6 +157,7 @@ body {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-top: 48px;
 }
 
 .welcome-img-content {
@@ -166,8 +173,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    
-   
+
+
 }
 
 /* details  */
@@ -217,7 +224,13 @@ body {
     padding: 16px 32px;
     border-radius: 8px;
     border: 0;
+    margin-top: 48px;
+    margin-bottom: 110px;
 }
+.btn-secondary:hover {
+    background-color:black;
+    color: white;
+  }
 
 /* holiday */
 
@@ -230,6 +243,9 @@ body {
     margin: auto;
     margin-top: 120px;
     margin-bottom: 0;
+    
+
+
 }
 
 .holiday-first-content {
@@ -284,7 +300,7 @@ body {
 }
 
 .holiday-second-content {
-    padding-left: 118px;
+    padding-left: 90px;
 }
 
 .holiday-year {
@@ -324,10 +340,15 @@ body {
 .offer-container {
     width: 1320px;
     flex-shrink: 0;
-
     margin: auto;
     margin-top: 120px;
     margin-bottom: 0;
+
+
+
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 
 .offer-title {
@@ -373,33 +394,20 @@ body {
 
 .offer-content-img {
     display: flex;
+    background-image: url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+
 }
 
 .img2 {
-    width: 206.841px;
-    height: 206.841px;
+    width: 320.048px;
+    height: 320.048px;
     flex-shrink: 0;
-    margin: auto;
-
+    margin-top: 100px;
+    
 }
-
-.img3 {
-    width: 429px;
-    height: 433px;
-    flex-shrink: 0;
-    margin: 30px 10px;
-
-}
-
-.img-footer {
-    width: 1320px;
-    height: 229px;
-    flex-shrink: 0;
-
-
-}
-
-
 
 /* portfolio */
 .portfolio-container {
@@ -412,7 +420,8 @@ body {
 
 }
 
-.portfolio-content {}
+
+
 
 .portfolio-title {
     color: #F00;
@@ -463,16 +472,7 @@ body {
 
 }
 
-/* 8888888888888uhuirgheru */
-.items-column>a:hover {
-    background: red;
-    border: none;
-}
-
-
-
-
-
+ 
 
 
 /* subscribe */
@@ -558,7 +558,11 @@ body {
     font-weight: 600;
     text-transform: capitalize;
 
+}
 
+.btn:hover{
+    background-color:black;
+    color: white;
 }
 
 
@@ -589,6 +593,7 @@ footer {
 
 .footer-column {
     width: 20%;
+    
 }
 
 .footer-des {
@@ -599,8 +604,23 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+    margin-top: 48px;
+    width: 400px;
 
 }
+.footer-des1 {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 48px;
+    margin-top: 30px;
+
+}
+
 
 hr {
     margin: 20px 120px 0px 120px;
