@@ -452,13 +452,10 @@ body {
 
 }
 
-/* Create three equal columns that sits next to each other */
 .items-column {
     float: left;
     width: 1600px;
     padding: 5px;
-
-
 
 }
 
